@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume - Tushar</title>
+        <style>
+            h1, h2, h3, h4, p {
+                margin: 5px;
+                padding: 2px;
+                margin-left: 0;
+                padding-left: 0;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color: blue;
+            }
+
+            table {
+                border: 2px solid black;
+            }
+    
+            th, td { 
+                border: 2px solid black; 
+                padding: 8px; 
+                text-align: left; 
+            }
+
+            .key-features {
+                padding: 2px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Tushar Nebhnani</h1>
+                <div id="subtitle">
+                    <strong>Full-Stack Engineer | Data Science | AI/ML Specialist</strong>
+                </div>
+                <hr>
+            </header>
+
+            <section class="about-me">
+                <h2>About Me</h2>
+                <p id="personalized-details">A results-driven full-stack engineer and natural builder, I architect data-centric solutions and dynamic web applications that translate complex information into actionable business intelligence. My expertise spans both backend predictive modeling and modern frontend development, with proven achievements including enhancing AI accuracy by 60-70% and delivering responsive web experiences. I'm eager to apply deep expertise in Python, JavaScript, SQL, and Machine Learning alongside React and FastAPI to build robust, scalable software that solves meaningful challenges.</p>
+                <hr> 
+            </section>
+
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul id="skill-list">
+                    <li><strong>Programming Languages:</strong> Python, JavaScript, SQL</li>
+                    <li><strong>Web-Development: </strong>  Front-End: React, HTML5, CSS3, TailWind CSS |  Back-End: FastAPI, Node.js</li>
+                    <li><strong>Databases:</strong> MongoDB, MySQL</li>
+                    <li><strong>Data Science:</strong> Machine Learning, Data Cleaning & Pre-processing , Statistical
+                    Analysis , Exploratory Data Analysis (EDA)</li>
+                    <li><strong>Version Control:</strong> Git & GitHub</li>
+                </ul>
+                <hr>
+            </section>
+
+            <section class="experience">
+                <h2>Experience</h2>
+                <table id="experience-table">
+                    <thead>
+                        <tr id="headers">
+                            <th>Position</th>
+                            <th>Company</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="web-dev">
+                            <td>Web-Dev Lead</td>
+                            <td>IEEE Student Branch</td>
+                            <td>January, 2025 - Present</td>
+                        </tr>
+                        <tr id="ai-intern">
+                            <td>AI Intern</td>
+                            <td>Pyrotech Technologies</td>
+                            <td>June, 2025 - August, 2025</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </section>
+
+            <section class="projects">
+                <h2>Projects</h2>
+                <div id="project-1" class="project">
+                    <h3>Project-1: Olist ECommerce Predictive Dashboard</h3>
+                    <p>A machine learning project using the Olist Brazilian E-Commerce dataset to build predictive models for e-commerce analytics. Developed end-to-end solution with FastAPI backend and React frontend.</p>
+                    <div class="key-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>Product recommendation using SVD collaborative filtering.</li>
+                            <li>Purchase prediction and customer satisfaction models.</li>
+                            <li>Customer segmentation and price recommendation.</li>
+                        </ul>
+                        <p>
+                            <strong>Tech Stack:</strong> Python, FastAPI, React, scikit-learn, pandas, TypeScript, Vite<br>
+                            <strong>Impact:</strong> Provides actionable insights for personalized recommendations, churn prediction, and business intelligence in e-commerce operations.
+                        </p>
+                    </div>
+                </div>
+                <div id="project-2" class="project">
+                    <h3>Project-2: Retail Analysis Dashboard</h3>
+                    <p>Interactive web dashboard for retail analytics build using SQL.</p>
+                    <div class="key-features">
+                        <h4>Key Features:</h4>
+                        <ul>
+                            <li>KPIs: Revenue, customers, products, avg transaction value.</li>
+                            <li>Product Analytics: Category revenue, top products, low stock alerts.</li>
+                            <li>Sales Trends: Monthly/peak analysis with year filters.</li>
+                            <li>Customer Insights: Demographics (gender/location), RFM segmentation.</li>
+                        </ul>
+                       <p>
+                        <strong>Tech Stack:</strong> Python, Streamlit, Pandas, Plotly, SQLite<br>
+                        <strong>Impact:</strong> Addresses stagnant growth, poor segmentation, inventory issues
+                        Enables data-driven decisions for marketing, operations, customer retention
+                    </p>
+                    </div>
+                </div>
+                <hr>
+            </section>
+
+            <section class="education-details">
+                <h1>Education</h1>
+                <table id="experience-table">
+                    <thead>
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bachleor in Computer Science</td>
+                            <td>SPPU</td>
+                            <td>2027</td>
+                        </tr>
+                        <tr>
+                            <td>Class XII</td>
+                            <td>MDS</td>
+                            <td>2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+            </section>
+
+            <section class="contact-info">
+                <h1>Contact Info:</h1>
+                <div class="contact">
+                    <span><strong>Email: </strong><a href="mailto:nebhnani.tushar8@gmail.com">nebhnani.tushar8@gmail.com</a></span>
+                    <br>
+                    <span><strong>Contact: </strong>+91 8619264574</span>
+                    <br>
+                    <span><strong>Location: </strong>Pune, India</span>
+                    <br>
+                    <span><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/tushar-nebhnani" id="linkedin">https://www.linkedin.com/in/tushar-nebhnani</a> </span>
+                    <br>
+                    <span><strong>GitHub: </strong><a href="https://github.com/tushar-nebhnani" id="linkedin">https://github.com/tushar-nebhnani</a> </span>
+                </div>
+                <hr>
+            </section>
+            <footer>
+                &copy 2026 Tushar Nebhnani. All rights reserved.
+            </footer>
+        </div>
+    </body>
+</html>
