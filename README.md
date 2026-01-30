@@ -43,6 +43,7 @@ This project is a responsive HTML resume that highlights professional experience
 ```
 HTML Resume/
 ├── index.html      # Main resume file
+|- Blog_link.md # This file contain all the blog link.
 └── README.md       # This file
 ```
 
